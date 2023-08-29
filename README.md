@@ -1,5 +1,5 @@
 # lasnerf: Converting LAS Files to Neural Radiance Fields (NERF)
-
+![image](2xsec_nerf.png)
 ## Introduction
 
 Welcome to `lasnerf`. This repository focuses on converting LAS files, a standard lidar data format, into Neural Radiance Fields (NERF). Unlike typical NERF applications that use RGB data, this project leverages the intensity and volumetric density information from lidar to generate novel views and create differential datasets.
@@ -39,6 +39,8 @@ In ecological studies, such as kelp forest mapping, traditional lidar can provid
 ## Conclusion
 
 `lasnerf` extends the capabilities of lidar data by integrating it with Neural Radiance Fields. The project allows for more than just static point clouds; it enables dynamic exploration and differential analysis. 
+
+![image](2xsec_pts.png)
 
 ## References
 - [LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields](https://arxiv.org/abs/2304.10406)
